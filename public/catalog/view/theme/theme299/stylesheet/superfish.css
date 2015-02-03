@@ -1,0 +1,210 @@
+/********************************************************************************************************************************************************************************/
+/* menu */
+#menu {
+	border-top:1px solid #c4c3c3;
+	border-bottom:1px solid #c4c3c3;
+	}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+#menu div div div > ul > li:first-child {padding-left:0;}
+#menu div div div > ul > li {
+	float: left;
+	z-index: 10;
+	position:relative;
+	border-radius:0;
+	padding:18px 11px 20px 12px;
+	}
+#menu div div div> ul > li > a {
+	display:inline-block;
+	z-index: 1;
+	position: relative;
+	font-size:17px;
+	color:#777777;
+	text-decoration:none;
+	line-height:19px;
+	font-weight:300;
+	text-shadow:1px 0 #d8d8d8;
+}
+#menu div div div> ul > li>a:hover, #menu div div div > ul > li.sfHover>a, #menu div div div > ul > li.active>a  {
+	color:#333;
+	text-shadow:1px 0 #e0e0e0;
+	}
+
+#menu div div div> ul > li  ul {
+	display: none;
+	position: absolute; 
+	z-index: 99;
+	background:#303030; 
+	border-top:0;
+	left:0px;
+	top:59px;
+	width:228px;
+	margin:0 !important;
+	padding:8px 0 12px;
+	
+	}
+#menu ul li li span.sf-sub-indicator {position:relative; }
+#menu ul li li span.sf-sub-indicator:after {
+	content:'\f107';
+	background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    display: inline;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+	line-height:0px;
+    height: auto;
+    margin-top: 0;
+    text-decoration: inherit;
+    vertical-align: middle;
+    width:1.45em;
+	padding-left:3px;
+	font-size:14px;
+	}
+#menu ul li li span.sf-sub-indicator { float:right;} 
+#menu ul li li span.sf-sub-indicator:after {
+	content:'\f105';
+	font-size:18px;
+	}
+#menu div div div> ul > li:hover > div {
+	display: table;
+}
+#menu div div div> ul > li ul + ul {
+	padding-left: 0px;
+	
+}
+#menu div div div> ul > li ul > li > a:hover, #menu div div div> ul > li ul > li.active > a, #menu div div div> ul > li ul > li.sfHover > a {
+	color:#333;
+	background:#fed500;
+	}
+#menu div div div> ul > li > ul  li { 
+	position:relative;
+	}
+#menu div div div> ul > li > ul > li  a {
+	text-decoration:none;
+	color: #FFFFFF;
+	font-size:14px;
+	text-transform:none;
+	line-height:18px;
+	text-align:left;
+	padding:6px 18px 7px;
+	display:block;
+}
+#menu div div div ul > li ul ul  { 
+	position:absolute;
+	left:228px;
+	top:-8px;
+	}
+/*****************************************************/
+#menu-icon {
+    color: #333;
+    cursor: pointer;
+    display: block;
+    font-size: 23px;
+    font-weight: 300;
+    line-height: 30px;
+    padding:10px 20px;
+    text-transform: none;
+	position:relative;
+	border-top:1px solid #c4c3c3;
+	border-bottom:1px solid #c4c3c3;
+}
+#menu-icon:after {
+	float:right;
+	content:"\f107";
+	background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    display: inline;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: normal;
+    margin-top: 0;
+    text-decoration: inherit;
+    vertical-align: baseline;
+    width: auto;
+	display: inline-block;
+    text-decoration: inherit;
+	 text-align: center;
+    width: 1.25em;
+	font-size:25px;
+	color:#333;
+	vertical-align:middle;
+	padding-top:3px;
+	}
+#menu-icon.active:after {
+	content:"\f106";
+	}
+.sf-menu-phone {display:none;}
+.sf-menu-phone li { 
+	position: relative;
+	
+	background-color:#333;
+	}
+  .sf-menu-phone li a { display: inline-block;  color: #fff;  border-bottom:1px solid #000; font-size:15px; font-weight:300;}
+  .sf-menu-phone  li {   font-size: 19px; font-weight: bold; padding: 0; }
+  .sf-menu-phone  li > a {padding: 10px 15px; display: block;}
+  .sf-menu-phone  li li  a {padding: 10px 15px 10px 25px; display: block; font-weight:300;}
+  .sf-menu-phone  li li li a {padding: 10px 15px 10px 35px; display: block;}
+  .sf-menu-phone li a:hover { color: #B90100; }
+  .sf-menu-phone li li {font-size: 14px;}
+  .sf-menu-phone li li.last { padding-bottom: 0 !important;  }
+  .sf-menu-phone li i {
+    position: absolute;
+    display: block;
+    top: 2px;
+    right: 0;
+    height: 24px;
+    width: 24px;
+  }
+  .sf-menu-phone  li  i {top: 8px;color:#fed500; font-size:21px; padding:0 20px; right:5px}
+  .sf-menu-phone  li i.icon-angle-up:before {content:'\f106' !important}
+  .sf-menu-phone li i:hover { cursor: pointer; }
+  .sf-menu-phone li i.opened { background-position: center 7px; }
+
+  /** dropdown **/
+  .sf-menu-phone ul {  width: auto;  padding: 0px 0px;  display: none;  }
+  .sf-menu-phone  li.active > a > span {color: inherit;}
+  .sf-menu-phone  li.active > a,
+  .sf-menu-phone  li:hover > a { color: #fff; background: #252525; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

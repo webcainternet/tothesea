@@ -1,0 +1,48 @@
+header #logo a img {
+	width:auto
+	}
+.login-content .heading h2 {
+	font-size:16px;
+	}
+.table th, .table td {
+	padding:8px;
+	}
+#search {
+    float: none;
+	margin:0;
+    position: absolute;
+	right:50px;
+	top:27px;
+}
+.fluid_container {
+	width:635px;
+	margin-right:5px;
+	}
+.header-modules .banner>div {
+	margin:5px 0 0;
+	float:none;
+	}
+#container .contentBottom .banner > div {
+    max-width: 460px;
+    width: 460px;
+}
+#container .contentBottom .banner > div .s-desc {
+    font-size: 13px;
+	zoom:1;
+}
+#container .contentBottom .banner > div .s-desc h1 {
+    font-size: 20px;
+    margin: 13px 0 0;
+}
+.product-grid .cart, .box .box-product .cart {
+	float:none;
+	display:block; text-align:center;
+	}
+.wishlist a, .compare a {
+	margin:5px 5px 0 0
+	}
+.product-list .wishlist a, .product-list .compare a, .preview .wishlist a, .preview .compare a {
+	margin:0px 0px 0 5px
+	}
+#full_gallery {display:block;}
+#default_gallery {display:none;}
