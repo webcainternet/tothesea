@@ -3,7 +3,7 @@
 define('HTTP_SERVER', 'http://tothesea.com.br/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://tothesea.com.br/');
+define('HTTPS_SERVER', 'https://tothesea.com.br/');
 
 switch ($_SERVER['SERVER_ADDR'])
     {
