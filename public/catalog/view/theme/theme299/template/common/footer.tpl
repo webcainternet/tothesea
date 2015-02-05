@@ -46,7 +46,7 @@
 				<li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>
 				</ul>
 			</div>
-			<div class="span2" style="width: 341px; margin-top: -40px;">
+			<div class="span2" style="width: 341px; margin-top: -10px;">
 				<img src="image/pagseguro.jpg" alt="">
 			</div>
 		</div>
