@@ -3283,7 +3283,7 @@ label{
 .close:hover, .close:focus {
 	opacity:1
 	}
-.left .right {
+.left, .right {
 	float: left;
 	width: 49%;
 
